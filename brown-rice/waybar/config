@@ -1,0 +1,46 @@
+{
+	"layer": "top",
+	"modules-left": ["wlr/workspaces",],
+	"modules-center": ["custom/weather"],
+	"modules-right": ["network", "pulseaudio", "cpu", "memory", "clock", "tray",],
+
+	"pulseaudio": {
+		"tooltip": false,
+		"scroll-step": 1,
+		"format": "{icon} {volume}%",
+		"format-icons": {
+			"default": ["奄", "奔", "墳"]
+		}
+	},
+	"network": {
+		"tooltip": false,
+		"format-wifi": " {essid} {ipaddr}",
+		"format-ethernet": " {ipaddr}"
+	},
+	"cpu": {
+		"tooltip": false,
+		"format": " {}%"
+	},
+	"clock": {
+    	"interval": 1,
+    	"format": "{:%I:%M}",
+	},
+	"memory": {
+		"tooltip": false,
+		"format": " {}%"
+	},
+	"tray": {
+		"spacing": 10
+	},
+	"custom/weather": {
+        "format": "{}",
+        "tooltip": true,
+        "interval": 1800,
+        "exec": "$HOME/.config/waybar/scripts/weather.py",
+        "return-type": "json"
+    },
+	"wlr/workspaces": {
+		"on-click": "activate",
+	},
+}
+

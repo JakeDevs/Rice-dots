@@ -1,0 +1,139 @@
+* {
+	border: none;
+	border-radius: 0;
+	font-family: Nerd Font Hack;
+	font-size: 14px;
+	min-height: 24px;
+}
+
+window#waybar {
+	background: #1D1816;
+  border-bottom: solid #8D837E 2px;
+}
+
+#window {
+    margin-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: none;
+    color: transparent;
+    background: transparent;
+}
+
+
+#workspaces {
+	margin-bottom: 0;
+	background: #1D1816;
+	transition: none;
+  border-bottom: solid #8D837E 2px;
+}
+
+#workspaces button {
+	transition: none;
+	color: #f8f8f2;
+	background: transparent;
+	font-size: 16px;
+  border-right: solid #8D837E 2px;
+  border-left: solid #8D837E 2px;
+}
+
+#workspaces button.active {
+	color: #f8f8f2;
+}
+
+#workspaces button:hover {
+	transition: none;
+	box-shadow: inherit;
+	text-shadow: inherit;
+	color: #7980ff;
+}
+
+
+#network {
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	transition: none;
+	color: #f8f8f2;
+	background: #1D1816;
+  border-bottom: solid #8D837E 2px;
+  border-right: solid #8D837E 2px;
+  border-left: solid #8D837E 2px;
+
+}
+
+#pulseaudio {
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	transition: none;
+	color: #f8f8f2;
+	background: #1D1816;
+  border-bottom: solid #8D837E 2px;
+  border-right: solid #8D837E 2px;
+
+}
+
+
+#cpu {
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	transition: none;
+	color: #f8f8f2;
+	background: #1D1816;
+  border-bottom: solid #8D837E 2px;
+  border-right: solid #8D837E 2px;
+}
+
+#memory {
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	transition: none;
+	color: #f8f8f2;
+	background: #1D1816;
+  border-bottom: solid #8D837E 2px;
+  border-right: solid #8D837E 2px;
+}
+
+#clock {
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	transition: none;
+	color: #f8f8f2;
+	background: #1D1816;
+  border-bottom: solid #8D837E 2px;
+  border-right: solid #8D837E 2px;
+}
+
+#tray {
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	transition: none;
+	color: #f8f8f2;
+	background: #1D1816;
+  border-bottom: solid #8D837E 2px;
+  border-right: solid #8D837E 2px; 
+}
+
+#custom-weather {
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	transition: none;
+	color: #f8f8f2;
+	background: #1D1816;
+  border-bottom: solid #8D837E 2px;
+  border-right: solid #8D837E 2px;
+  border-left: solid #8D837E 2px;
+
+}
+
+tooltip {
+	background: #1D1816;
+  border: solid #8D837E 2px;
+
+}
